@@ -38,7 +38,7 @@ function all(x) {
         `originalString:    ${ori}, \n` +
         `modifiedString:    ${mod}, \n` +
         `numberReplaced:    ${numRep}, \n` +
-        `length:    ${len} \n` +
+        `length:            ${len} \n` +
         `}`;
     return result;
 
