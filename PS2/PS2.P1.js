@@ -12,7 +12,7 @@ function* fibs () {
 function* evenFib () {
     myFibs = fibs();
     const count = [];
-    while (count.length < 6) {
+    while (count.length<6) {
         const temp = myFibs.next().value;
         if (temp%2 ==0){
             console.log(temp);

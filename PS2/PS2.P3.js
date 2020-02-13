@@ -3,7 +3,7 @@
 //     Note: The .map() method on Array is your friend here.
 
 const cube = (value) => (val) => {
-    const text = `${Math.pow(val,3)}`;
+    const text= `${Math.pow(val,3)}`;
     return text;
 }
 var y = [1,2,3,4,5,6,7];

@@ -5,7 +5,7 @@
 
 function* P2 (arg = "nothing hi") {
     arr = arg.split(" ");
-    while(arr.length!=0) {
+    while(arr.length!=0){
         result =  arr.shift();
         yield result;
     }
